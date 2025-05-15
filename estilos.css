@@ -1,0 +1,74 @@
+.principal{
+color: brown;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.secundario{
+color: ;
+}
+
+#tituloprincipal {
+    color: orange;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#primer{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#segundo{
+    color: chocolate;
+}
+
+body{
+    background-color:purple
+}
+
+
+
+
+.contenedor1{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blue
+}
+
+.contenedor2{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black
+}
+
+.contenedor3{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: right;
+}
+.contenedor{
+    display: flex;
+    justify-content:baseline;
+}
+
+.tamosmelos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.vamoscontoda{
+    background-color: rgb(0, 255, 72);
+    border: 3px dotted red;
+}
+
